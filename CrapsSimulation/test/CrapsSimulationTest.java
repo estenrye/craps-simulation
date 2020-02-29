@@ -12,4 +12,10 @@ class CrapsSimulationTest
 		assertEquals("Die.testStatic()", die.testStatic());
 	}
 
+	@Test
+	void test_static2()
+	{
+		CrookedDie1 die = new CrookedDie1();
+		assertEquals("CrookedDie1.testStatic()", die.testStatic());
+	}
 }
